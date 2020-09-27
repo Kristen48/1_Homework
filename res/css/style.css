@@ -2,7 +2,7 @@
 /*
 TO DO Kristen?:
 1) When making screen size smaller topic column alignment is not exaclty
-on the center.
+on the center. DONE!
 2) Place notification, message and account icons to the right side of 
 the header.
 3) Make h1 and searchbox input margin smaller.
@@ -105,6 +105,9 @@ nav div.search-container > button {
     justify-content: center;
 }
 
+#horizontal_list{
+    padding:0;
+}
 #horizontal_list li{
     display: flex;              /*To loose the dots */
     margin-right: 40px;
@@ -144,14 +147,18 @@ section{
     margin-top: 40px;
 }
 
-img {
+.position img{
+    width:32px;
+}
+
+.container img {
     width: 350px;
     height: 200px;
     margin: 10px;
     transition: all 0.8s;
 }
 
-img:hover {
+.container img:hover {
     transform: scale(1.1);
 }
 
@@ -182,5 +189,8 @@ footer {
     }
 }
 
+.img-title{
+    margin:10px;
+}
 
 
