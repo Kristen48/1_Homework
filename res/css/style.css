@@ -191,6 +191,10 @@ footer {
 
 .img-title{
     margin:10px;
+    font-family: fantasy; 
 }
-
+.img-subtitle{
+    margin:10px;
+    font-family: "Homer Simpson UI";
+}
 
