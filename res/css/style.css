@@ -4,7 +4,7 @@ TO DO Kristen?:
 1) When making screen size smaller topic column alignment is not exaclty
 on the center. DONE!
 2) Place notification, message and account icons to the right side of 
-the header.
+the header. DONE!
 3) Make h1 and searchbox input margin smaller.
 4) Pictures open almost full screen (on click).
 5) Check if each mandatory point is comlited.
@@ -193,6 +193,9 @@ footer {
 
 .img-title{
     margin:10px;
+    font-family: fantasy; 
 }
-
-
+.img-subtitle{
+    margin:10px;
+    font-family: "Homer Simpson UI";
+}
